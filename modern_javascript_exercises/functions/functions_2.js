@@ -1,5 +1,7 @@
 // Instructions to this exercise can be found in functions_2.md
 
+// *Solutions*
+
 // Function Declarations ⭐️
 
 const people = ["Heather", "Barry", "John", "Maria"];
