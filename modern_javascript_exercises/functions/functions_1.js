@@ -16,29 +16,37 @@ const people = ["Harry", "Hermione", "Ron"];
 
 // people.forEach(logPerson);
 
+// *Solutions*
+
 // Function Expressions/Functions as a Value
 // Refactor logPerson() so it is becomes a Function Expression (or sometimes called a "Function as a Value")
+// Your code here
 
 const logPerson = function (person) {
-  return "The person is " + person;
+  console.log("The person is " + person);
 };
 
 people.forEach(logPerson);
 
-// Your code here
-
 // Anonymous Functions
 // Refactor logPerson() so it becomes an Anonymous Function
+// Your code here
 
 const logPerson2 = (person) => {
-  return "The person is " + person;
+  console.log("The person is " + person);
 };
 
 people.forEach(logPerson2);
-// Your code here
+
+// OR even better
+
+const logPerson3 = (person) => console.log("The person is " + person); // <--- here we are using console.log() so its not as obvious, but by removing the curly braces and moving this onto one line, it now has an "implicit" return, meaning you don't need to use the "return" keyword
+
+people.forEach(logPerson3);
 
 // Anonymous Arrow Functions
 // Refactor logPerson() so it becomes a Anonymous Arrow Function
-
-const logPerson3 = (person) => console.log("The person is " + person);
 // Your code here
+
+// This function is anonymous, it does not have a name
+people.forEach((person) => console.log("The person is " + person));
