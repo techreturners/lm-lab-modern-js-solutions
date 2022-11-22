@@ -1,0 +1,19 @@
+{
+  "name": "modern-js-lab-solutions",
+  "version": "1.0.0",
+  "description": "\"Solutions for Modern JavaScript Exercises\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/techreturners/lm-lab-modern-js-solutions.git"
+  },
+  "bugs": {
+    "url": "https://github.com/techreturners/lm-lab-modern-js-solutions/issues"
+  },
+  "homepage": "https://github.com/techreturners/lm-lab-modern-js-solutions#readme"
+}
