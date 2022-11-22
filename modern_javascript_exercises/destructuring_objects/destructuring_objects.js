@@ -10,7 +10,13 @@
 //   return "Hello my name is " + name + " and I live in " + city + " with " + pet;
 // }
 
-function introduction({ name, city, pet }) {
+// *Solution*
+
+//prettier-ignore
+function introduction({ name, city, pet }) { // <--- 2) destructuring moved up into the parameters 🔥 🔥
+
+  // const {name, city, pet} = person; <--- 1) destructuring 🔥
+
   return "Hello my name is " + name + " and I live in " + city + " with " + pet;
 }
 
