@@ -7,6 +7,7 @@ const passwords = [
   "freecodecamp",
   "mypassword123",
 ];
+
 // *Original function below*
 
 // function longPasswords(passwords) {
@@ -21,8 +22,11 @@ const passwords = [
 //   return longPasswords;
 // }
 
+// *Solution*
+
 const longPasswords = (passwords) =>
   passwords.filter((password) => password.length >= 9);
-console.log(longPasswords);
+
+console.log(longPasswords(passwords));
 
 module.exports = longPasswords;
