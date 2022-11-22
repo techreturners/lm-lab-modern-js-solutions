@@ -6,8 +6,8 @@
 //   return `Hello, ${person === undefined ? "you!" : person + "!"}`;
 // };
 
-const sayHello = (person = "you") => {
-  return `Hello, ${person + "!"}`;
-};
+// *Solution*
+
+const sayHello = (person = "you") => `Hello, ${person + "!"}`;
 
 module.exports = sayHello;
