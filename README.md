@@ -1,1 +1,1 @@
-# lm-lab-modern-js-solutions
+# Modern JavaScript in-session lab - Tech Coach Solutions
