@@ -10,8 +10,12 @@
 //   return first + ", " + second + ", " + third;
 // }
 
-function sequence([first, second, third]) {
-  // const [first, second, third] = order;
+// *Solution*
+
+//prettier-ignore
+function sequence([first, second, third]) { // <--- 2) destructuring moved up into the parameters 🔥 🔥
+  
+  // const [first, second, third] = order; <--- 1) destructuring 🔥
 
   return first + ", " + second + ", " + third;
 }
