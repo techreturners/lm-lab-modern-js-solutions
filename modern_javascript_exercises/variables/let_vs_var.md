@@ -12,23 +12,21 @@ You'll notice that we can access the value of `i` inside _and outside_ of the fo
 
 ## Task 1:
 
-Call the function count() and run `node let_vs_var.js` to see what gets printed to the console!
+👉 Call the function count() and run `node let_vs_var.js` to see what gets printed to the console!
 
 ...
 
-Well that's interesting! 😯
+Well, that's interesting! 😯
 
 As you can imagine, this isn't the behaviour that we want...
 
-## Task 1:
+## Task 2:
 
 Another problem with var is that we can overwrite it.
 
 This might not seem like a big deal... but in a massive code base - overwriting variables without realising is a big issue 🙈
 
-## Task 2:
-
-Replace the vars with `let` so we get the behaviour we expect!
+👉 Replace all the vars in this file with `let` so we get the behaviour we expect!
 
 ## Handy Hint:
 

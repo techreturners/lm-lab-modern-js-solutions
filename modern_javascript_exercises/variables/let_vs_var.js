@@ -2,19 +2,38 @@
 
 // Problems with var
 
+// *Original function*
+
+// function count() {
+//   for (var i = 0; i < 5; i++) {
+//     console.log(i + " inside the forLoop");
+//   }
+//   console.log(i + " outside the forLoop");
+// }
+
+// *Solution*
+
 function count() {
-  let i = 0;
-  for (i = 0; i < 5; i++) {
+  for (let i = 0; i < 5; i++) {
     console.log(i + " inside the forLoop");
   }
   console.log(i + " outside the forLoop");
 }
 
-count(); // <---- uncomment me!
+count(); // <---- uncomment me! This results in a ReferenceError (i outside the forLoop is not defined) which is what we want!
+
+// *Original code*
 
 // Another problem with var is that we can overwrite it, like this:
 
-let greeting = "Hello 😘";
-let greeting2 = "Not today, pal! 😤";
+// var greeting = "Hello 😘";
+// var greeting = "Not today, pal! 😤";
 
-console.log(greeting + " " + greeting2); // <----- uncomment me!
+// console.log(greeting) // <----- uncomment me!
+
+// *Solution*
+
+let greeting = "Hello 😘";
+let greeting = "Not today, pal! 😤";
+
+console.log(greeting); // <----- uncomment me! This results in a Helpful Syntax Error ('greeting' has already been declared) which is what we want!
