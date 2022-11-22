@@ -17,4 +17,4 @@ count(); // <---- uncomment me!
 let greeting = "Hello 😘";
 let greeting2 = "Not today, pal! 😤";
 
-console.log(greeting); // <----- uncomment me!
+console.log(greeting + " " + greeting2); // <----- uncomment me!

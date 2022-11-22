@@ -1,5 +1,7 @@
 // Instructions can be found in destructuring_arrays.md
 
+// *Original function below*
+
 // function sequence(order) {
 //   const first = order[0];
 //   const second = order[1];

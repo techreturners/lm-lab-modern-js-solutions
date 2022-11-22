@@ -7,6 +7,7 @@
 
 // Note: Named Functions can be passed as values, as shown. But written in different ways..
 
+// *Original function below*
 const people = ["Harry", "Hermione", "Ron"];
 
 // function logPerson(person) {

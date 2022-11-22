@@ -7,6 +7,8 @@ const passwords = [
   "freecodecamp",
   "mypassword123",
 ];
+// *Original function below*
+
 // function longPasswords(passwords) {
 //   let longPasswords = [];
 
