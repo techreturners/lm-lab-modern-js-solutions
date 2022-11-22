@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/techreturners/lm-lab-modern-js-solutions/issues"
   },
-  "homepage": "https://github.com/techreturners/lm-lab-modern-js-solutions#readme"
+  "homepage": "https://github.com/techreturners/lm-lab-modern-js-solutions#readme",
+  "dependencies": {
+    "jest": "^29.3.1"
+  }
 }
