@@ -2,7 +2,7 @@
 
 // *Original Code*
 
-// function add(a, b) {
+// export function add(a, b) {
 // Add a loop here
 //   return a + b;
 // }
@@ -11,7 +11,7 @@
 
 // *Solutions*
 
-function add(...args) {
+export function add(...args) {
   let total = 0;
   for (const a of args) {
     total += a;
@@ -21,7 +21,7 @@ function add(...args) {
 
 // console.log(add(1, 2, 3, 4, 5));
 
-function add(...args) {
+export function add(...args) {
   let total = 0;
   for (let i = 0; i <= args.length; i++) {
     total += i;
@@ -31,7 +31,7 @@ function add(...args) {
 
 // console.log(add(1, 2, 3, 4, 5));
 
-function add(...args) {
+export function add(...args) {
   let total = 0;
   args.forEach((arg) => (total += arg));
 
@@ -39,5 +39,3 @@ function add(...args) {
 }
 
 // console.log(add(1, 2, 3, 4, 5));
-
-module.exports = add;

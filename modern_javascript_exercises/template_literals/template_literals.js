@@ -2,12 +2,10 @@
 
 // *Original function below*
 
-// const greeting = (name, dayOfTheWeek) =>
+// export const greeting = (name, dayOfTheWeek) =>
 //   "Hello " + name + "! It is now " + dayOfTheWeek;
 
 // *Solution*
 
-const greeting = (name, dayOfTheWeek) =>
+export const greeting = (name, dayOfTheWeek) =>
   `Hello ${name}! It is now ${dayOfTheWeek}`;
-
-module.exports = greeting;

@@ -2,12 +2,10 @@
 
 // *Original function below*
 
-// const sayHello = (person) => {
+// export const sayHello = (person) => {
 //   return `Hello, ${person === undefined ? "you!" : person + "!"}`;
 // };
 
 // *Solution*
 
-const sayHello = (person = "you") => `Hello, ${person + "!"}`;
-
-module.exports = sayHello;
+export const sayHello = (person = "you") => `Hello, ${person + "!"}`;

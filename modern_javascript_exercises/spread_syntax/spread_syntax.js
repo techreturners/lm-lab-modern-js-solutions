@@ -5,14 +5,12 @@
  *  @param {number[]} moreNumbers An array of more numbers
  */
 
-// function allTheNumbers(numbers, moreNumbers) {
+// export function allTheNumbers(numbers, moreNumbers) {
 //   return [];
 // }
 
 // *Solution*
 
-function allTheNumbers(numbers, moreNumbers) {
+export function allTheNumbers(numbers, moreNumbers) {
   return [...numbers, ...moreNumbers];
 }
-
-module.exports = allTheNumbers;

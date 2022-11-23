@@ -1,4 +1,4 @@
-const allTheNumbers = require("./spread_syntax");
+import { allTheNumbers } from "./spread_syntax";
 test("it returns an array of all the numbers", () => {
   const numbers = [1, 2, 3];
   const moreNumbers = [4, 5, 6];

@@ -2,7 +2,7 @@
 
 // *Original function below*
 
-// function sequence(order) {
+// export function sequence(order) {
 //   const first = order[0];
 //   const second = order[1];
 //   const third = order[2];
@@ -13,11 +13,9 @@
 // *Solution*
 
 //prettier-ignore
-function sequence([first, second, third]) { // <--- 2) destructuring moved up into the parameters 🔥 🔥
+export function sequence([first, second, third]) { // <--- 2) destructuring moved up into the parameters 🔥 🔥
   
   // const [first, second, third] = order; <--- 1) destructuring 🔥
 
   return first + ", " + second + ", " + third;
 }
-
-module.exports = sequence;
