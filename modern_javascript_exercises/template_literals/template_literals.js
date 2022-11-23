@@ -1,10 +1,11 @@
 // Instructions can be found in template_literals.md
 
 // *Original function below*
-// const greeting = (name, dayOfTheWeek) =>
+
+// export const greeting = (name, dayOfTheWeek) =>
 //   "Hello " + name + "! It is now " + dayOfTheWeek;
 
-const greeting = (name, dayOfTheWeek) =>
-  `Hello ${name}! It is now ${dayOfTheWeek}`;
+// *Solution*
 
-module.exports = greeting;
+export const greeting = (name, dayOfTheWeek) =>
+  `Hello ${name}! It is now ${dayOfTheWeek}`;

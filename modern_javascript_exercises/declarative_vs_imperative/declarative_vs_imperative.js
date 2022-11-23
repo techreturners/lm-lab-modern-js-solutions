@@ -7,9 +7,10 @@ const passwords = [
   "freecodecamp",
   "mypassword123",
 ];
+
 // *Original function below*
 
-// function longPasswords(passwords) {
+// export function longPasswords(passwords) {
 //   let longPasswords = [];
 
 //   for (let i = 0; i < passwords.length; i++) {
@@ -21,8 +22,9 @@ const passwords = [
 //   return longPasswords;
 // }
 
-const longPasswords = (passwords) =>
-  passwords.filter((password) => password.length >= 9);
-console.log(longPasswords);
+// *Solution*
 
-module.exports = longPasswords;
+export const longPasswords = (passwords) =>
+  passwords.filter((password) => password.length >= 9);
+
+console.log(longPasswords(passwords));
