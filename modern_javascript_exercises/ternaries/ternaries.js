@@ -18,3 +18,8 @@ export function sayHello(name) {
 
 export const sayHello = (name) =>
   !name ? "Hello you!" : "Hello, " + name + "!";
+
+
+// Note: this could also be solved using a default parameter:
+
+const sayHello = (name = "you") => "Hello, " + name + "!";
