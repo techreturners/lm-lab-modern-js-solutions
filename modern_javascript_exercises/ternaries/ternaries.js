@@ -22,4 +22,4 @@ export const sayHello = (name) =>
 
 // Note: this could also be solved using a default parameter:
 
-const sayHello = (name = "you") => "Hello, " + name + "!";
+export const sayHello = (name = "you") => "Hello, " + name + "!";
