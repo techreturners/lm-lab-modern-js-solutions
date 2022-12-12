@@ -25,7 +25,7 @@ const performLogPerson = function (person) {
 people.forEach(performLogPerson);
 
 // Arrow Functions
-// Write a version of logPerson() as an Arrow Function and store it in a variable called arrowVersionofLogPerson
+// Write a version of logPerson() as an Arrow Function and store it in a variable called arrowVersionOfLogPerson
 
 // Solution:
 
