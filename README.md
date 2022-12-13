@@ -2,7 +2,7 @@
 
 In this repo you will find solutions to the in-session pairing/group activity for Modern JavaScript.
 
-This repo is a clone of the one sent out to Learners in "Introduction to Modern JavaScript" which can be found here: https://github.com/techreturners/lm-lab-modern-js
+The original repo for "Introduction to Modern JavaScript" can be found here: https://github.com/techreturners/lm-lab-modern-js
 
 ## Getting Started
 
