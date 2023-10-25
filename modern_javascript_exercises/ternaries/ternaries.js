@@ -10,16 +10,8 @@
 
 // *Solution*
 
-export function sayHello(name) {
-  return !name ? "Hello you!" : "Hello, " + name + "!";
+function sayHello(name) {
+  return `Hello, ${name ? name : 'you'}!`
 }
 
-// Or using a modern js arrow function with implicit return
 
-export const sayHello = (name) =>
-  !name ? "Hello you!" : "Hello, " + name + "!";
-
-
-// Note: this could also be solved using a default parameter:
-
-export const sayHello = (name = "you") => "Hello, " + name + "!";
